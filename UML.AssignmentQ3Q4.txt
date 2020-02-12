@@ -1,0 +1,12 @@
+Q3. 
+-Program1 leaves their instance variable as public, therefore users have direct access to the variable.
+-Tight coupling because Class B has direct access to Class A instance variable.
+
+-Program2 leaves their instance variable as private, therefore users have to access the method in order to access the instance variable.
+Encapsulation says we must leave our instance variables private.
+-Loose coupling because Class B does not have direct access to Class A instance variable.
+
+Q4.
+Program3 is bad programming because of the low cohesion. Unrelated functions are in the same class as related functions.
+In order to make it better programming, you need to create a high cohesion setup.Unrelated functions and related functions are in
+seperate classes. This will make for better maintenance, usability and easier readabilty.
